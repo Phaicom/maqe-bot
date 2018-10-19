@@ -26,7 +26,7 @@ func TestBot(t *testing.T) {
 			log.Fatal(err)
 		}
 		if *bot != test.Want {
-			t.Errorf("SetCommand(%s) = %v; want %v", test.Command, *bot, test.Want)
+			t.Errorf("SetCommand(%s) = %+v; want %+v", test.Command, *bot, test.Want)
 		}
 	}
 }
