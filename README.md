@@ -11,7 +11,7 @@ Command set for walking in 2-dimensional plane
 
 For example
 ```
-W5RW5
+W10RW10
 ```
 Which mean walk straight 10 points, turn right and walk straight 10 points
 
