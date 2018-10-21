@@ -67,6 +67,7 @@ func (bot *Bot) Rotate(side string) {
 	} else {
 		bot.Direction++
 	}
+	bot.Direction += 4
 	bot.Direction %= 4
 }
 
